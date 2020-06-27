@@ -13,11 +13,10 @@ class User {
     password: string;
 
     @BeforeInsert()
-    @BeforeInsert()
+    @BeforeUpdate()
     hashPassword() {
         this.password = bcrypt.hashSync(this.password, 8)
     }
-
 }
 
 export default User;
