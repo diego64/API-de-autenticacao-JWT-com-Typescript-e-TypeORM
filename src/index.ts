@@ -1,8 +1,8 @@
 import 'reflect-metadata';
 import express from 'express';
 
-import './database/connect';
-import routes from './routes';
+import './database/connect'; //Importação da conexão do BD
+import routes from './routes'; //Importação das rotas
 
 const app = express();
 

@@ -14,10 +14,12 @@ class UserController {
 
         const userExists = await repository.findOne({ where: { email }});
 
+        //Verificação de usuário
         if (userExists) {
             return res.send(409);
         }
 
+        //Se não existir, o usuário é criado
         const user = repository.create({ email, password });
         await repository.save(user);
 

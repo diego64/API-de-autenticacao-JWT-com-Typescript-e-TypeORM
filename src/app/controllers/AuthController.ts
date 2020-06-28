@@ -35,3 +35,9 @@ class AuthController {
 }
 
 export default new AuthController();
+
+/*Fluxo do sistema:
+    - Verificação de e-mail (Se é cadastrado)
+    - Comparação da senha digitada com a senha cadastrada para aquele usuário
+    - Se aprovado nas duas estapas, o suuário pode seguir no sistema
+*/ 
