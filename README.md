@@ -25,7 +25,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Este projeto é uma API desenvolvida em Node.Js utilizando TypeScript, JWT e TypeORM. A função desse pequeno back-end é cadastrar um usuário onde o mesmo fornece e-mail e senha que estas Informações são enviadas para um banco de dados relacional (PostgreSQL). A senha é salva na base de dados criptografada pelo JWT e a autenticação do usuário é feita pelo token gerado após do cadastro 
 
-## 📼 Desenvolvimentob 
+## 📼 Desenvolvimentob
 
 O projeto foi divido em 8 partes: 
 
